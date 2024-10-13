@@ -260,3 +260,57 @@ border-radius: 10px;
 .my-current-target-item-3 p{
   text-align: left;
 }
+
+.support-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;  
+}
+
+.support-section-div{
+  width: 85%;
+  height: 300px;
+  background-image: url(/assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.support-items{
+  width: 70%;
+  text-align: center;
+  color: white; 
+}
+
+.support-items h2{
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 8px #160707;
+}
+
+.support-items p{
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.7;
+  text-shadow: 2px 2px 8px #160707;
+
+}
+
+.support-items input{
+  width: 450px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  margin-top: 25px;
+}
+
+.support-items button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  cursor: pointer;
+}
