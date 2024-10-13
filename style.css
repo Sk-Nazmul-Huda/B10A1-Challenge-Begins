@@ -155,3 +155,29 @@
   width: 25%;
   padding: 5px;  
 }
+
+.my-inspiration-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 60px; 
+}
+
+.my-inspiration-div{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.my-inspiration-div p{
+  width: 90%;
+}
+
+.my-inspiration-div iframe{
+  border-radius: 16px;
+}
